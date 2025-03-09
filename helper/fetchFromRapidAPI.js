@@ -6,7 +6,8 @@ const getQuote = async (symbol) => {
       method: 'GET',
       headers: {
         // 'x-rapidapi-key': 'bd6e6d157amshf36e3d1c4bbb870p1f530ejsnd25bf5616122',
-        'x-rapidapi-key': '42a6008624msh224c2981b9a51bep18feb0jsnbdace659d65b',
+        // 'x-rapidapi-key': '42a6008624msh224c2981b9a51bep18feb0jsnbdace659d65b',
+        'x-rapidapi-key': 'f9b3d75535msh5a506f5b6c431b3p1a8884jsn20fc2808b1a4',
         'x-rapidapi-host': 'yahoo-finance15.p.rapidapi.com'
       }
     }

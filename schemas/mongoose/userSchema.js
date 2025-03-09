@@ -37,6 +37,8 @@ userSchema.statics.signup = userStatics.signup
 
 userSchema.statics.login = userStatics.login
 
+userSchema.statics.passwordReset = userStatics.passwordReset
+
 userSchema.statics.assignPin = pinStatics.assignPin
 
 userSchema.statics.confirmPin = pinStatics.confirmPin

@@ -140,6 +140,7 @@ const getAccount = async (req, res) => {
     // console.log(account)
     const accountRes = {
         msg: 'success',
+        email: user.email,
         kycImage: account.kycImage.contentType,
         firstName: account.firstName,
         lastName: account.lastName,
